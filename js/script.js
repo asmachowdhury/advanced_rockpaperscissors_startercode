@@ -1,6 +1,12 @@
-//Class 1:
-        // Fork and clone the repo and set up your project workspace and link files
-        // Write HTML for your project
+var userChoice="";
+var computerChoice="";
+var winner="";
+var choices=["rock","paper","scissors"];
+
+$("#pButton").click(function(){
+    var userChoice = $("#input").val();
+        $("#result").append(userChoice);
+});
 //Class 2:  
         // Declare four global variables for intial state of the list of choices, the computer choice, the user choice, and the winner.  
         // Practice using console.log() and debugger to debug your code
